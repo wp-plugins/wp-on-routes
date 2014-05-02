@@ -1,22 +1,16 @@
 === WordPress on Routes ===
-
 Contributors: markzero
-
 Tags: routes, path, HTTP method, custom paths, custom parameters, query, headers, exclude header, agent, filter agents
-
 Requires at least: 3.8
-
 Tested up to: 3.9
-
 Stable tag: 0.1.0
-
-
 
 This plugin adds API-like functionality to your WordPress instance.
 
-
-
 == Description ==
+
+WordPress on Routes is a plugin for WordPress, inspired mainly by Ruby micro-frameworks. It adds ability to add custom routes to your WordPress instance. Useful for form submissions, API-like features, etc.
+
 This plugin allows you to:
 
 1. Add custom routes to your WordPress installation
@@ -28,3 +22,10 @@ This plugin allows you to:
 1. Add agents or filter by agents, using regular expressions
 1. Agent filter for negative logic (e.g. /^((?!Firefox).)*$/, which tells "every browser except Firefox")
 1. Include header and footer
+
+== Installation ==
+
+Good old plugin installation applies here too - download it / clone it to `plugins/` dir, activate.
+
+No UI involved.
+
