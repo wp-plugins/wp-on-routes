@@ -23,6 +23,8 @@ This plugin allows you to:
 1. Agent filter for negative logic (e.g. /^((?!Firefox).)*$/, which tells "every browser except Firefox")
 1. Include header and footer
 
+For basic and advanced usage examples, take a look at [https://github.com/markzero/wp-on-routes](https://github.com/markzero/wp-on-routes).
+
 == Installation ==
 
 Good old plugin installation applies here too - download it / clone it to `plugins/` dir, activate.
