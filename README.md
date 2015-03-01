@@ -75,7 +75,7 @@ $routing->add_routes(
 );
 ```
 
-In example above, if you target `/foo/a/b/c/bar/test`, browser will answer with HTTP status 200, with following code, with header and footer included:
+In example above, if you target `/foo/a/b/c/bar/test`, browser will answer with HTTP status 200, with following code, with header and footer included, only in Firefox browser:
 
 ```
 array (size=2)
@@ -119,3 +119,7 @@ Tests
 ===
 
 Reference to tests/instructions.txt to read how to test output of your WordPress website.
+
+I am using wp-cli to generate testing environment: https://github.com/wp-cli/wp-cli/wiki/Plugin-Unit-Tests.
+
+So, before any testing run similar command: `bash bin/install-wp-tests.sh wor_test_db root root localhost latest`.
